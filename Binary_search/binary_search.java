@@ -2,6 +2,10 @@ package Binary_search;
 
 public class binary_search {
     public static int search(int[] nums, int target) {
+        
+//         binary search approach
+        
+        
         int start=-0,end=nums.length-1;
         int i=0;
         while(start<=end){
